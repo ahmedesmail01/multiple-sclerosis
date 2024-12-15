@@ -10,7 +10,7 @@ const Suffer = () => {
     "ستبدأ رحلة التشافي تدريجيًا مع تراجع حدة المرض وعودة الغدة لنشاطها الطبيعي.",
   ];
   return (
-    <div className="flex-col px-4   lg:flex-row md:flex  items-start lg:gap-6 justify-center lg:mb-[96px] mb-[60px] [font-family:'Expo_Arabic']">
+    <div className="flex-col px-4   lg:flex-row md:flex  items-start lg:gap-6 justify-center lg:mb-[96px] mb-[60px] [font-family:--font-expo]">
       <Image
         src={girlImg}
         alt="image"
@@ -67,7 +67,7 @@ const Suffer = () => {
           })}
         </div>
         <a
-          href="#subscribe"
+          href="https://staging.mtnhealingcenter.com/payment/899f77cb-1e48-4e29-89c0-6c0469515ea1"
           className="flex mb-4 text-white font-bold text-sm md:text-xl w-[130px] md:w-[195px] h-[50px] md:h-[60px] justify-center items-center gap-2 bg-gradient-to-r from-[#E24514] to-[#0F1010] shadow-md px-4 py-2 rounded-2xl"
         >
           اشترك الآن

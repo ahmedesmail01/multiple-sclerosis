@@ -20,10 +20,10 @@ const Gain = () => {
 
   return (
     <>
-      <h1 className="self-stretch text-[#263653] text-center [font-family:PNU] mb-4 text-3xl lg:text-[40px] font-bold leading-[160%]">
+      <h1 className="self-stretch text-[#263653] text-center [font-family:--font-pnu] mb-4 text-3xl lg:text-[40px] font-bold leading-[160%]">
         ماذا تستفيد عندما تلتحق بالمجموعة العلاجية الخاصة بالغدة الدرقية؟
       </h1>
-      <div className="flex-col px-4   lg:flex-row-reverse md:flex  items-start lg:gap-6 justify-center lg:mb-[96px] mb-[60px] [font-family:'Expo_Arabic']">
+      <div className="flex-col px-4   lg:flex-row-reverse md:flex  items-start lg:gap-6 justify-center lg:mb-[96px] mb-[60px] [font-family:--font-expo]">
         <Image
           src={skull}
           alt="image"
@@ -56,7 +56,7 @@ const Gain = () => {
             })}
           </div>
           <a
-            href="#subscribe"
+            href="https://staging.mtnhealingcenter.com/payment/899f77cb-1e48-4e29-89c0-6c0469515ea1"
             className="flex mt-4 mb-4 text-white font-bold text-sm md:text-xl w-[130px] md:w-[195px] h-[50px] md:h-[60px] justify-center items-center gap-2 bg-gradient-to-r from-[#E24514] to-[#0F1010] shadow-md px-4 py-2 rounded-2xl"
           >
             اشترك الآن

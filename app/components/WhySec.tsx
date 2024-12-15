@@ -15,7 +15,7 @@ const WhySec = () => {
   ];
   return (
     <div className="flex flex-col gap-4 justify-center items-center px-4 mb-[60px] lg:mb-[96px]">
-      <h1 className="self-stretch text-[#06132B] text-center font-[PNU] text-2xl lg:text-[40px] font-bold leading-[160%] lg:mb-[48px]">
+      <h1 className="self-stretch text-[#06132B] text-center [font-family:--font-pnu] text-2xl lg:text-[40px] font-bold leading-[160%] lg:mb-[48px]">
         لماذا جلسات &quot;الاتزان شفاء&quot;؟
       </h1>
 
@@ -30,7 +30,7 @@ const WhySec = () => {
           >
             <div className="rounded-2xl h-full bg-white text-center p-4">
               <h2 className="mb-3 font-bold text-xl">{item.title}</h2>
-              <p className="flex-[1_0_0] text-[#06132B] text-center [font-family:PNU] text-base font-normal leading-[normal]">
+              <p className="flex-[1_0_0] text-[#06132B] text-center [font-family:--font-pnu] text-base font-normal leading-[normal]">
                 {item.desc}
               </p>
             </div>

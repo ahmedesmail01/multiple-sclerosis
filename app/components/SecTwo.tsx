@@ -26,7 +26,7 @@ const SecTwo = () => {
           {bullets.map((bullet, index) => (
             <div key={index} className="py-2 md:py-4 flex items-center gap-4">
               <Image src={circleSvg} alt="icon" />
-              <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:PNU] text-sm md:text-xl font-normal leading-[normal]">
+              <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:--font-pnu] text-sm md:text-xl font-normal leading-[normal]">
                 {bullet}
               </span>
             </div>

@@ -20,36 +20,36 @@ const Techs = () => {
           dir="rtl"
           className="flex px-2 md:px-8 md:py-[60px] flex-col justify-between"
         >
-          <h1 className="self-stretch text-[#263653] text-right [font-family:PNU] text-[32px] font-bold leading-[normal]">
+          <h1 className="self-stretch text-[#263653] text-right [font-family:--font-pnu] text-[32px] font-bold leading-[normal]">
             التقنيات المستخدمة في الجلسات
           </h1>
-          <p className="text-[#263653] text-right [font-family:PNU] text-xl font-bold leading-[normal]">
+          <p className="text-[#263653] text-right [font-family:--font-pnu] text-xl font-bold leading-[normal]">
             فهم جذر المرض:
           </p>
           {bullets.map((bullet, index) => (
             <div key={index} className="py-2 md:py-2 flex items-center gap-4">
               <Image src={circleSvg} alt="icon" />
-              <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:PNU] text-sm md:text-xl font-normal ">
+              <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:--font-pnu] text-sm md:text-xl font-normal ">
                 {bullet}
               </span>
             </div>
           ))}
-          <p className="text-[#263653] text-right [font-family:PNU] text-xl font-bold leading-[normal]">
+          <p className="text-[#263653] text-right [font-family:--font-pnu] text-xl font-bold leading-[normal]">
             تلقي رسالة المرض:
           </p>
           <div className="py-2 md:py-2 flex items-center gap-4">
             <Image src={circleSvg} alt="icon" />
-            <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:PNU] text-sm md:text-xl font-normal leading-[normal]">
+            <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:--font-pnu] text-sm md:text-xl font-normal leading-[normal]">
                المرض رسالة من مشاعرك المضطربة، وبمجرد فهمها تبدأ عملية الشفاء
               الذاتى
             </span>
           </div>
-          <p className="text-[#263653] text-right [font-family:PNU] text-xl font-bold leading-[normal]">
+          <p className="text-[#263653] text-right [font-family:--font-pnu] text-xl font-bold leading-[normal]">
             التدريب  على الاتزان الشعوري:
           </p>
           <div className="py-2 md:py-2 flex items-center gap-4">
             <Image src={circleSvg} alt="icon" />
-            <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:PNU] text-sm md:text-xl font-normal leading-[normal]">
+            <span className="md:w-[512.818px] text-[#06132B] text-right [font-family:--font-pnu] text-sm md:text-xl font-normal leading-[normal]">
                تدريبات مكثفة  على على اختيار المشاعر المتزنة، مما يوثر ايجابا عى
               صحتك و حالتك الشعوريه .
             </span>

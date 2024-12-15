@@ -7,20 +7,20 @@ import kyam from "@/public/images/kyam.svg";
 const Gifts = () => {
   return (
     <div className="text-center px-4 md:pb-[96px]  pb-[60px] flex flex-col items-center bg-gradient-to-b from-white via-[#f9e9e4] to-[#f4d9d0] w-full">
-      <h1 className="self-stretch md:mb-6 text-[#263653] text-center [font-family:Tajawal] text-2xl lg:text-5xl font-bold lg:leading-[66px]">
+      <h1 className="self-stretch md:mb-6 text-[#263653] text-center [font-family:--font-tajawal] text-2xl lg:text-5xl font-bold lg:leading-[66px]">
         مميزات  او مزايا الاشتراك بالبرنامج
       </h1>
-      <p className="flex  my-4 lg:w-[878px] md:mb-[48px] h-[67px] flex-col justify-center text-[#263653] text-center [font-family:PNU] text-base lg:text-lg font-normal leading-[25px]">
+      <p className="flex  my-4 lg:w-[878px] md:mb-[48px] h-[67px] flex-col justify-center text-[#263653] text-center [font-family:--font-pnu] text-base lg:text-lg font-normal leading-[25px]">
         الحصول على مجموعة لقاءات و برامج  بها العديد من التدريبات الشعورية
         المكثفة  التي تساعدك في رحلة التشافي والاتزان وهي
       </p>
       <div
         dir="rtl"
-        className="flex-col lg:flex lg:flex-row items-start gap-4 justify-center   [font-family:Tajawal] "
+        className="flex-col lg:flex lg:flex-row items-start gap-4 justify-center   [font-family:--font-tajawal] "
       >
         <div className="flex flex-col gap-4 pt-12 pb-12 mb-4 justify-start items-center w-80 min-h-[598px] text-center bg-white rounded-[20px]">
           <Image src={ragol} alt="ragol kasseep logo" />
-          <h2 className=" text-center [font-family:Tajawal] text-xl font-black leading-6">
+          <h2 className=" text-center [font-family:--font-tajawal] text-xl font-black leading-6">
             تدريبات الرجل الكسيب <span className="text-[#EF8218]">للذكور</span>
           </h2>
           <p className=" text-center font-normal leading-6">
@@ -37,7 +37,7 @@ const Gifts = () => {
         </div>
         <div className="flex flex-col gap-4 pt-12 pb-12 mb-4 justify-start items-center w-80 min-h-[598px] text-center bg-white rounded-[20px]">
           <Image src={estro} alt="estro gym logo" />
-          <h2 className=" text-center [font-family:Tajawal] text-xl font-black leading-6">
+          <h2 className=" text-center [font-family:--font-tajawal] text-xl font-black leading-6">
             تدريبات استروجيم <span className="text-[#EF8218]">للاناث</span>
           </h2>
           <p>4 حلقات شهريا</p>
@@ -53,7 +53,7 @@ const Gifts = () => {
         </div>
         <div className="flex flex-col gap-4 pt-12 pb-12 mb-4 justify-start items-center w-80 min-h-[598px] text-center bg-white rounded-[20px]">
           <Image src={kyam} alt="kyam logo" />
-          <h2 className=" text-center [font-family:Tajawal] text-xl font-black leading-6">
+          <h2 className=" text-center [font-family:--font-tajawal] text-xl font-black leading-6">
             برنامج القيم
           </h2>
           <p>4 حلقات شهريا</p>
